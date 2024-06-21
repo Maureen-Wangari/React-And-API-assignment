@@ -2,7 +2,7 @@ import "./index.css"
 import { useState } from "react";
 import {login } from "./utils";
 
-const Login = ()=>{
+export const Login = ()=>{
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState ('');
 
